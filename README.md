@@ -1,12 +1,4 @@
-# Proyecto Django MVT (Listo para subir a GitHub)
-
-Proyecto de ejemplo con:
-- Patrón MVT (Django)
-- Herencia de templates (base.html)
-- 3 modelos: Persona, Producto, Orden
-- Formularios de inserción para cada modelo
-- Formulario de búsqueda que consulta Persona y Producto
-- README en español con orden de prueba
+# Proyecto Web
 
 ## Cómo ejecutar (Windows)
 1. Clonar o descargar y extraer el ZIP.
