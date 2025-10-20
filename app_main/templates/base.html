@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Proyecto Django{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos sencillos embebidos para no depender de archivos estáticos */
+        body { font-family: Arial, Helvetica, sans-serif; margin: 20px; }
+        nav a { margin-right: 10px; text-decoration: none; color: #0b5ed7; }
+        form { max-width: 600px; margin-top: 10px; }
+        .resultado { border: 1px solid #ddd; padding: 10px; margin: 8px 0; }
+    </style>
+</head>
+<body>
+    <h1>Proyecto Django MVT</h1>
+    <nav>
+        <a href="/">Inicio</a> |
+        <a href="/persona/">Nueva Persona</a> |
+        <a href="/producto/">Nuevo Producto</a> |
+        <a href="/orden/">Nueva Orden</a> |
+        <a href="/buscar/">Buscar</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
